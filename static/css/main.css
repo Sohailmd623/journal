@@ -1,0 +1,21 @@
+body{
+	background-color: rgb(189,183,107);
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: rgb(0,128,128);
+}
+
+p{
+	color: rgb(178,34,34);
+}
+
+hr {
+    border-color: black;
+}
+
+#cart-icon{
+	width:35px;
+	display: inline-block;
+	margin-left: 10px;
+}

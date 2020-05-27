@@ -1,0 +1,8 @@
+<p><h3>Are you sure you want to delete {{ task }} from the list?</h3></p>
+
+<a href="{% url 'home' %}" >Cancel</a><h1>Yes, I want to delete {{ task }} </h1>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    <input type="submit" name="Delete todo">
+</form>
